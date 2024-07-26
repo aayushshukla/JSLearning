@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inner Html Use</title>
+</head>
+
+<body>
+    <h1> Writing Value On HTML Page</h1>
+
+    <p id="para1"> </p>
+
+    <p id="para2">
+         Getting value from innerHTML
+    </p>
+
+    <script>
+        // setting value in html using javascript
+        document.getElementById("para1").innerHTML ='The Element property innerHTML gets or sets the HTML or XML markup contained within the element.'
+        var value = document.getElementById("para2").innerHTML
+        console.log('value of para2',value)
+  </script>
+</body>
+</html>
